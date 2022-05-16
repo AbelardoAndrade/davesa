@@ -1,0 +1,161 @@
+.logo {
+  width: 18rem;
+}
+.img-fluid {
+  margin-inline: auto;
+  display: block;
+  width: 14rem;
+}
+
+.menu{
+  color: rgb(186, 233, 91);
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.btn {
+color: rgb(186, 233, 91);
+border-color: rgb(186, 233, 91);
+
+}
+
+body {
+background-image: url('/image/original/nuvem.jpg');
+}
+
+.conteudo {
+  border: 1px solid rgb(186, 233, 91);
+  border-top: none;
+  width: 90%;
+  margin-inline: auto;
+  background-color: rgb(255, 255, 255);
+  padding-inline: 3rem;
+}
+
+.text-descript {
+text-align: justify;
+list-style: none;
+}
+
+.text-descript p {
+  padding-inline: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  max-width: 66rem;
+  margin-inline: auto;
+}
+
+.marcas > ul {
+list-style: none;
+text-align: center;
+font-weight: bold;
+}
+.titulo{
+  text-align: center;
+  color: rgba(66, 179, 255, 0.788);
+  text-shadow: 1px 1px 1px rgba(86, 133, 0, 0.671);
+  margin-bottom: 2rem;
+}
+
+.conteudo img{
+padding: 2rem
+
+}
+.text-descript > h2 {
+  text-align: center;
+  color: rgba(66, 179, 255, 0.788);
+  text-shadow: 1px 1px 1px rgba(86, 133, 0, 0.671);
+margin-bottom: 2rem;
+}
+
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+.rodape{
+  text-align: center; 
+  color: aliceblue;
+}
+.rodape a{
+  text-decoration: none;
+  color: rgb(81, 170, 248);
+  text-shadow: 1px 1px 1px black;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.container img {
+margin-top: 2rem;
+}
+.container .whats {
+width: 15%;
+}
+.container .insta {
+  width: 15%;
+  }
+  .container .github {
+    width: 15%;
+    }
+    .network {
+text-decoration: none;
+color: rgba(66, 179, 255, 0.788);
+text-shadow: 1px 1px 1px rgba(86, 133, 0, 0.671);
+font-size: 1.5rem;
+display: block;
+align-items: center;
+align-content: center;
+justify-content: center;
+    }
+    .fale{
+      margin-inline: auto;
+    }
+    button {
+      margin-top: 1rem;
+      border: 1px solid rgb(186, 233, 91);
+color:  rgb(81, 170, 248);
+border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: rgb(81, 170, 248);
+      color: rgb(186, 233, 91) ;
+    }
+
+    .wrapper {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-top: -18rem;
+     margin-bottom: -15rem;
+    }
+    .typing{
+      width: 22ch;
+      animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      font-family: monospace;
+      font-size: 2em;
+      color: rgba(66, 179, 255, 0.788);
+text-shadow: 1px 1px 1px rgba(86, 133, 0, 0.671);
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
