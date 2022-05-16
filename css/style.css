@@ -20,7 +20,7 @@ border-color: rgb(186, 233, 91);
 }
 
 body {
-background-image: url('/image/original/nuvem.jpg');
+background-color: rgba(0, 0, 0, 0.664);
 }
 
 .conteudo {
